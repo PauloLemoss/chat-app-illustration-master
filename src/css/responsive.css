@@ -1,0 +1,55 @@
+@media(max-width: 768px){
+
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+    .back-ground-purple{
+        width: 200px;
+        margin: auto auto auto -20px;
+        border-radius: 0px 0px 310px 0px;
+    }
+    main{
+         display: flex;
+        flex-direction: column;
+        width: 300px; 
+    }
+    .icon{
+        gap: 230px;
+    }
+    .app{
+         margin: -550px -70px auto auto;
+         width: 270px;
+    }
+    .dog-message, .dog-message-two{
+        margin: auto 10px auto auto;
+    }
+    .information-booking{
+    margin: 20px 20px auto 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    }
+    .title-booking{
+        width: 300px;
+        text-align: center;
+    }
+
+    .paragraph-booking{
+        text-align: center;
+        width: 310px;
+    }
+}
+
+@media(min-width: 820px) and (max-width: 1024px){
+    .app{
+        width: 400px;
+    }
+    .information-booking{
+        margin-left: 25px;
+    }
+    .paragraph-booking{
+        width: 300px;
+    }
+}
